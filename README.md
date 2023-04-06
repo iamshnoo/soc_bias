@@ -21,18 +21,36 @@ pip install -e .
 git clone https://github.com/facebookresearch/fastText.git
 cd fastText
 pip install .
+cd ..
 
 # 2. Download word embeddings
 
 cd src
 python download_elmo.py (embeddings stored in src/elmo_models)
 python download_glove.py (embeddings stored in src/glove_models)
+cd ..
+
+These downloads attempt to download very large files from a website.
+In case they don't work, we have included the relevant files in this repository via git-lfs.
+Look for src/elmo_archive.zip and src/glove_archive.zip
+
+src/elmo_models/hi should contain the unzipped files inside elmo_archive.zip,
+namely model.hdf5 and options.json and vocab.txt
+src/glove_models/hi should contain the unzipped contents of glove_archive.zip
+namely 50/glove/hi-d50-glove.txt, 50/glove/hi-d50-vocab.txt,
+300/glove/hi-d300-glove.txt, 300/glove/hi-d300-vocab.txt
+
+Another alternative to git-lfs is to download the files from the following links
+manually and place them in the relevant folders :
+elmo - wget "https://www.cfilt.iitb.ac.in/~diptesh/embeddings/monolingual/contextual/hi.zip"
+glove - wget "https://www.cfilt.iitb.ac.in/~diptesh/embeddings/monolingual/non-contextual/hi.zip"
 
 # 3. Run the experiments
 
 cd src
 python seat_test.py (Use the --help flag to see the options)
 python weat_test.py (Use the --help flag to see the options)
+cd ..
 
 # 4. Dataset (provided)
 
