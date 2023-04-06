@@ -1,0 +1,60 @@
+{
+  "targ1": {
+    "category": "MaleEntities",
+    "type": "common_nouns",
+    "examples": [
+      "पजामा",
+      "घडा",
+      "कुर्ता",
+      "फूल",
+      "कपड़ा",
+      "पहिया",
+      "यंत्र",
+      "पुतला",
+      "ताला"
+    ]
+  },
+  "targ2": {
+    "category": "FemaleEntities",
+    "type": "common_nouns",
+    "examples": [
+      "अलमारी",
+      "चादर",
+      "पोशाक",
+      "बिजली",
+      "बुद्धि",
+      "तस्वीर",
+      "घडी",
+      "राखी",
+      "कमीज"
+    ]
+  },
+  "attr1": {
+    "category": "MaleTerms",
+    "type": "common_nouns",
+    "examples": [
+      "पुरुष",
+      "आदमी",
+      "लड़का",
+      "भाई",
+      "पति",
+      "चाचा",
+      "मामा",
+      "बेटा"
+    ]
+  },
+  "attr2": {
+    "category": "FemaleTerms",
+    "type": "common_nouns",
+    "examples": [
+      "महिला",
+      "औरत",
+      "लड़की",
+      "बहन",
+      "पत्नी",
+      "चाची",
+      "मामी",
+      "बेटी"
+    ]
+  }
+}

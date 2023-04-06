@@ -1,0 +1,56 @@
+{
+  "targ1": {
+    "category": "PositiveAdjectives",
+    "type": "adjectives",
+    "examples": [
+      "अमीर",
+      "ज्ञानी",
+      "वीर",
+      "ताकतवर",
+      "सुन्दर",
+      "उच्च",
+      "साहसी"
+    ]
+  },
+  "targ2": {
+    "category": "NegativeAdjectives",
+    "type": "adjectives",
+    "examples": [
+      "नीच",
+      "घृणा",
+      "गन्दा",
+      "कमजोर",
+      "गरीब",
+      "अज्ञानी",
+      "निर्बल"
+    ]
+  },
+  "attr1": {
+    "category": "UrbanOccupations",
+    "type": "common_nouns",
+    "examples": [
+      "बैंकर",
+      "व्यवसायी",
+      "इंजीनियर",
+      "वकील",
+      "वैज्ञानिक",
+      "चालक",
+      "अभिनेता",
+      "मैनेजर"
+    ]
+  },
+  "attr2": {
+    "category": "RuralOccupations",
+    "type": "common_nouns",
+    "examples": [
+      "लोहार",
+      "जलवाहक",
+      "किसान",
+      "ग्वाला",
+      "चरवाहा",
+      "कुम्हार",
+      "जमींदार",
+      "जुलाहा"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "targ1": {
+    "category": "UpperCasteAdjectives",
+    "type": "adjectives",
+    "examples": [
+      "अमीर",
+      "ज्ञानी",
+      "वीर",
+      "ताकतवर",
+      "सुन्दर",
+      "उच्च",
+      "साहसी"
+    ]
+  },
+  "targ2": {
+    "category": "LowerCasteAdjectives",
+    "type": "adjectives",
+    "examples": [
+      "नीच",
+      "घृणा",
+      "गन्दा",
+      "कमजोर",
+      "गरीब",
+      "अज्ञानी",
+      "निर्बल"
+    ]
+  },
+  "attr1": {
+    "category": "UpperCasteNames",
+    "type": "common_nouns",
+    "examples": [
+      "ठाकुर",
+      "ब्राह्मण",
+      "राजपूत",
+      "क्षत्रिय",
+      "आर्य",
+      "जाट",
+      "बनिया",
+      "कायस्थ"
+    ]
+  },
+  "attr2": {
+    "category": "LowerCasteNames",
+    "type": "common_nouns",
+    "examples": [
+      "दलित",
+      "शूद्र",
+      "भंगी",
+      "चमार",
+      "वाल्मीकि",
+      "हरिजन",
+      "चूहड़ा",
+      "जाटव"
+    ]
+  }
+}

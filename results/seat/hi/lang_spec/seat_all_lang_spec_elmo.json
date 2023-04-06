@@ -1,0 +1,106 @@
+[
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat7_hi",
+        "p_value": 0.948,
+        "effect_size": -0.29735451359379533
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat8_hi",
+        "p_value": 0.004,
+        "effect_size": 0.5030316975491682
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat11_hi",
+        "p_value": 0.001,
+        "effect_size": 1.2945365026700535
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat12_hi",
+        "p_value": 0.001,
+        "effect_size": 1.7017350908580096
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat13_hi",
+        "p_value": 0.001,
+        "effect_size": 1.750860032197919
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat14_hi",
+        "p_value": 0.001,
+        "effect_size": 1.6762503704842653
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat15_hi",
+        "p_value": 0.001,
+        "effect_size": 1.3049608234714758
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat16_hi",
+        "p_value": 0.001,
+        "effect_size": 1.1341467424779934
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat17_hi",
+        "p_value": 0.001,
+        "effect_size": 1.0725660951323452
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat18_hi",
+        "p_value": 0.001,
+        "effect_size": 1.205749416568488
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat19_hi",
+        "p_value": 0.305,
+        "effect_size": 0.1286671228752857
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat20_hi",
+        "p_value": 0.001,
+        "effect_size": 0.6218188787619441
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_elmo",
+        "seed": 0,
+        "embedding_model": "elmo",
+        "test": "sent-weat21_hi",
+        "p_value": 0.015,
+        "effect_size": 0.5849820324275772
+    }
+]

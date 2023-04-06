@@ -1,0 +1,18 @@
+[
+    {
+        "experiment_id": "seat_all_trans_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat7_hi",
+        "p_value": 0.448,
+        "effect_size": 0.024270232471707346
+    },
+    {
+        "experiment_id": "seat_all_trans_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat8_hi",
+        "p_value": 0.498,
+        "effect_size": -0.006921164115085798
+    }
+]

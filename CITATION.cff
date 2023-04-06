@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Mukherjee"
+  given-names: "Anjishnu"
+  orcid: "https://orcid.org/0000-0003-4012-8466"
+- family-names: "Raj"
+  given-names: "Chahat"
+  orcid: "https://orcid.org/0000-0003-0083-6812"
+title: "Reproduction Code for the paper 'Socially Aware Bias Measurements for Hindi Language Representations'"
+version: 1.0.0
+#doi: 10.5281/zenodo.1234
+date-released: 2023-04-05
+url: "https://github.com/iamshnoo/soc_bias"

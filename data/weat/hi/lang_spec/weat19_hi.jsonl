@@ -1,0 +1,58 @@
+{
+  "targ1": {
+    "category": "PositiveAdjectives",
+    "type": "adjectives",
+    "examples": [
+      "शिक्षित",
+      "वीर",
+      "उच्च",
+      "साहसी",
+      "शांत",
+      "दयालु",
+      "सफल"
+    ]
+  },
+  "targ2": {
+    "category": "NegativeAdjectives",
+    "type": "adjectives",
+    "examples": [
+      "नीच",
+      "घृणा",
+      "अशिक्षित",
+      "हिंसक",
+      "क्रोधी",
+      "निर्दयी",
+      "अत्याचारी"
+    ]
+  },
+  "attr1": {
+    "category": "HinduLastNames",
+    "type": "names",
+    "examples": [
+      "शर्मा",
+      "वर्मा",
+      "अग्रवाल",
+      "गुप्ता",
+      "चौहान",
+      "बंसल",
+      "मित्तल",
+      "सिंह",
+      "चौधरी"
+    ]
+  },
+  "attr2": {
+    "category": "MuslimLastNames",
+    "type": "names",
+    "examples": [
+      "यूसुफ",
+      "मलिक",
+      "खान",
+      "अंसारी",
+      "शेख़",
+      "अब्दुल्ला",
+      "अहमद",
+      "पठान",
+      "मिर्जा"
+    ]
+  }
+}

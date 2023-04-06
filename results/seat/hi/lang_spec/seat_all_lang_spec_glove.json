@@ -1,0 +1,106 @@
+[
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat7_hi",
+        "p_value": 0.001,
+        "effect_size": 1.1335944988355142
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat8_hi",
+        "p_value": 0.001,
+        "effect_size": 1.0289245165342906
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat11_hi",
+        "p_value": 0.001,
+        "effect_size": 1.175329975143572
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat12_hi",
+        "p_value": 0.001,
+        "effect_size": 1.8298869680768737
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat13_hi",
+        "p_value": 0.001,
+        "effect_size": 1.6233406764317746
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat14_hi",
+        "p_value": 0.001,
+        "effect_size": 1.1171879831013034
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat15_hi",
+        "p_value": 0.001,
+        "effect_size": 1.8543248996337829
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat16_hi",
+        "p_value": 0.001,
+        "effect_size": 1.2517579414682025
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat17_hi",
+        "p_value": 0.001,
+        "effect_size": 1.3676635377129844
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat18_hi",
+        "p_value": 0.001,
+        "effect_size": 1.177787414572292
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat19_hi",
+        "p_value": 0.001,
+        "effect_size": 1.3967359593136093
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat20_hi",
+        "p_value": 0.001,
+        "effect_size": 1.6858455429294856
+    },
+    {
+        "experiment_id": "seat_all_lang_spec_glove",
+        "seed": 0,
+        "embedding_model": "glove",
+        "test": "sent-weat21_hi",
+        "p_value": 0.001,
+        "effect_size": 1.3914121392437382
+    }
+]

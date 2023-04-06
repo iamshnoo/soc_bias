@@ -1,0 +1,56 @@
+{
+  "targ1": {
+    "category": "StereoUpperCasteOccupations",
+    "type": "common_nouns",
+    "examples": [
+      "व्यापर",
+      "जमींदार",
+      "सुनार",
+      "गुरु",
+      "मुनीम",
+      "चिकित्सक",
+      "पंडित"
+    ]
+  },
+  "targ2": {
+    "category": "StereoLowerCasteOccupations",
+    "type": "common_nouns",
+    "examples": [
+      "सफाई",
+      "धोबी",
+      "मल्लाह",
+      "माली",
+      "नाई",
+      "मोची",
+      "मछुआरा"
+    ]
+  },
+  "attr1": {
+    "category": "UpperCasteNames",
+    "type": "common_nouns",
+    "examples": [
+      "ठाकुर",
+      "ब्राह्मण",
+      "राजपूत",
+      "क्षत्रिय",
+      "आर्य",
+      "जाट",
+      "बनिया",
+      "कायस्थ"
+    ]
+  },
+  "attr2": {
+    "category": "LowerCasteNames",
+    "type": "common_nouns",
+    "examples": [
+      "दलित",
+      "शूद्र",
+      "भंगी",
+      "चमार",
+      "वाल्मीकि",
+      "हरिजन",
+      "चूहड़ा",
+      "जाटव"
+    ]
+  }
+}

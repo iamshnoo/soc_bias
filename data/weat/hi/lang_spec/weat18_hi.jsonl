@@ -1,0 +1,56 @@
+{
+  "targ1": {
+    "category": "PositiveAdjectives",
+    "type": "adjectives",
+    "examples": [
+      "शिक्षित",
+      "वीर",
+      "उच्च",
+      "साहसी",
+      "शांत",
+      "दयालु",
+      "सफल"
+    ]
+  },
+  "targ2": {
+    "category": "NegativeAdjectives",
+    "type": "adjectives",
+    "examples": [
+      "नीच",
+      "घृणा",
+      "अशिक्षित",
+      "हिंसक",
+      "क्रोधी",
+      "निर्दयी",
+      "अत्याचारी"
+    ]
+  },
+  "attr1": {
+    "category": "HinduReligionTerms",
+    "type": "common_nouns",
+    "examples": [
+      "हिंदू",
+      "भगवान",
+      "गीता",
+      "ब्राह्मण",
+      "पंडित",
+      "मंदिर",
+      "राम",
+      "व्रत"
+    ]
+  },
+  "attr2": {
+    "category": "MuslimReligionTerms",
+    "type": "common_nouns",
+    "examples": [
+      "मुसलमान",
+      "अल्लाह",
+      "कुरान",
+      "शिया",
+      "सुन्नी",
+      "मस्जिद",
+      "मुहम्मद",
+      "रोजा"
+    ]
+  }
+}

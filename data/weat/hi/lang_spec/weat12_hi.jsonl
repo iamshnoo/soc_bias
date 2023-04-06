@@ -1,0 +1,58 @@
+{
+  "targ1": {
+    "category": "MaleVerbs",
+    "type": "verbs",
+    "examples": [
+      "गया",
+      "आया",
+      "खेलता",
+      "बैठा",
+      "लेता",
+      "रहता",
+      "देता",
+      "पढ़ता"
+    ]
+  },
+  "targ2": {
+    "category": "FemaleVerbs",
+    "type": "verbs",
+    "examples": [
+      "गई",
+      "आई",
+      "खेलती",
+      "बैठी",
+      "लेती",
+      "रहती",
+      "देती",
+      "पढ़ती"
+    ]
+  },
+  "attr1": {
+    "category": "MaleTerms",
+    "type": "common_nouns",
+    "examples": [
+      "पुरुष",
+      "आदमी",
+      "लड़का",
+      "भाई",
+      "पति",
+      "चाचा",
+      "मामा",
+      "बेटा"
+    ]
+  },
+  "attr2": {
+    "category": "FemaleTerms",
+    "type": "common_nouns",
+    "examples": [
+      "महिला",
+      "औरत",
+      "लड़की",
+      "बहन",
+      "पत्नी",
+      "चाची",
+      "मामी",
+      "बेटी"
+    ]
+  }
+}

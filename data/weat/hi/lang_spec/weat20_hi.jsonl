@@ -1,0 +1,44 @@
+{
+  "targ1": {
+    "category": "HinduReligionEntities",
+    "type": "common_nouns",
+    "examples": [
+      "भगवान",
+      "गीता",
+      "ब्राह्मण",
+      "पंडित",
+      "मंदिर",
+      "राम",
+      "व्रत"
+    ]
+  },
+  "targ2": {
+    "category": "MuslimReligionEntities",
+    "type": "common_nouns",
+    "examples": [
+      "अल्लाह",
+      "कुरान",
+      "शिया",
+      "सुन्नी",
+      "मस्जिद",
+      "मुहम्मद",
+      "रोजा"
+    ]
+  },
+  "attr1": {
+    "category": "HinduReligion",
+    "type": "common_nouns",
+    "examples": [
+      "हिंदू",
+      "हिंदुत्व"
+    ]
+  },
+  "attr2": {
+    "category": "MuslimReligion",
+    "type": "common_nouns",
+    "examples": [
+      "मुसलमान",
+      "इसलाम"
+    ]
+  }
+}
