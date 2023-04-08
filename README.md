@@ -28,7 +28,7 @@ python download_elmo.py (embeddings stored in src/elmo_models)
 python download_glove.py (embeddings stored in src/glove_models)
 cd ..
 
-# 3. Run the experiments
+# 3. Run the experiments (Elmo takes 9 hours on all tests, Glove is very fast)
 cd src
 python seat_test.py (Use the --help flag to see the options)
 python weat_test.py (Use the --help flag to see the options)
