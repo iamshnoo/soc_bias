@@ -63,15 +63,12 @@ results in the paper, for both the tables.
 
 #### Dataset (provided)
 
-data/seat (contains SEAT data)
-
-data/weat (contains WEAT data)
-
-Each of these two folders has subfolders for a language. For the reproduction of
-results in Hindi, there is a subfolder hi in each of these folders. The hi
-folder contains two subfolders, trans and lang_spec, corresponding to whether
-you want to use translated data or language-specific data as mentioned in the
-paper.
+| Data Type                   | Folder Path      | Description                                                                                      |
+|-----------------------------|------------------|--------------------------------------------------------------------------------------------------|
+| SEAT Data                   | `data/seat`      | Contains SEAT data; subfolders for each language, including `hi` for Hindi                       |
+| WEAT Data                   | `data/weat`      | Contains WEAT data; subfolders for each language, including `hi` for Hindi                       |
+| Hindi Translated Data       | `hi/trans`       | Use translated data (located within `data/seat/hi` and `data/weat/hi`)                            |
+| Hindi Language Specific Data| `hi/lang_spec`   | Use language-specific data (located within `data/seat/hi` and `data/weat/hi`) as mentioned in the paper |
 
 data/seat/hi also has a file called "templates.jsonl" which contains the
 templates used to generate the SEAT sentences from the WEAT word lists using the
@@ -82,58 +79,41 @@ using Google Translate.
 
 So, we have the following data folders for Hindi, for example:
 
-WEAT Hindi Translated data: data/weat/hi/trans (translate data/weat/en files
-using Google Translate)
-
-WEAT Hindi Language Specific data: data/weat/hi/lang_spec (use manually created
-word lists defined in the paper appendix)
-
-SEAT Hindi Translated data: data/seat/hi/trans (translate data/seat/en files
-using Google Translate)
-
-SEAT Hindi Language Specific data: data/seat/hi/lang_spec (use the
-templates.jsonl file as input to the generate_seat_data.py file to generate the
-SEAT sentences)
+| Data Type                     | Folder Path                     | Description                                                                                       |
+|-------------------------------|---------------------------------|---------------------------------------------------------------------------------------------------|
+| WEAT Hindi Translated data   | `data/weat/hi/trans`            | Translate `data/weat/en` files using Google Translate                                             |
+| WEAT Hindi Language Specific | `data/weat/hi/lang_spec`        | Use manually created word lists defined in the paper appendix                                     |
+| SEAT Hindi Translated data   | `data/seat/hi/trans`            | Translate `data/seat/en` files using Google Translate                                             |
+| SEAT Hindi Language Specific | `data/seat/hi/lang_spec`        | Use the `templates.jsonl` file as input to the `generate_seat_data.py` file to generate SEAT sentences |
 
 #### Results (provided)
 
-results/seat/hi/lang_spec (contains results from GloVe and ELMo)
-
-results/seat/hi/trans (contains results from GloVe)
-
-results/weat/hi/lang_spec (contains results from GloVe)
-
-results/weat/hi/trans (contains results from GloVe)
+| Results Type                  | Folder Path                | Description                         |
+|-------------------------------|----------------------------|-------------------------------------|
+| SEAT Hindi Language Specific  | `results/seat/hi/lang_spec` | Contains results from GloVe and ELMo |
+| SEAT Hindi Translated         | `results/seat/hi/trans`     | Contains results from GloVe          |
+| WEAT Hindi Language Specific  | `results/weat/hi/lang_spec` | Contains results from GloVe          |
+| WEAT Hindi Translated         | `results/weat/hi/trans`     | Contains results from GloVe          |
 
 These four result files are sufficient to reproduce the results in Table 1 and 2 in the paper.
 
 In the JSON files that we have for results, here is what each of the numbers represents:
 
-id = 7, Description = maths, arts vs male, female
-
-id = 8, Description = science, arts vs male, female
-
-id = 11, Description = adjectives vs male, female
-
-id = 12, Description = gendered verbs vs male, female
-
-id = 13, Description = gendered adjectives vs male, female
-
-id = 14, Description = gendered entities vs male, female
-
-id = 15, Description = gendered titles vs male, female
-
-id = 16, Description = occupations vs caste
-
-id = 17, Description = adjectives vs caste
-
-id = 18, Description = adjectives vs religion terms
-
-id = 19, Description = adjectives vs lastnames
-
-id = 20, Description = religious entities vs religion
-
-id = 21, Description = adjectives vs urban, rural occupations
+| ID  | Description                                  |
+|-----|----------------------------------------------|
+| 7   | maths, arts vs male, female                 |
+| 8   | science, arts vs male, female               |
+| 11  | adjectives vs male, female                  |
+| 12  | gendered verbs vs male, female              |
+| 13  | gendered adjectives vs male, female         |
+| 14  | gendered entities vs male, female           |
+| 15  | gendered titles vs male, female             |
+| 16  | occupations vs caste                        |
+| 17  | adjectives vs caste                         |
+| 18  | adjectives vs religion terms                |
+| 19  | adjectives vs lastnames                     |
+| 20  | religious entities vs religion              |
+| 21  | adjectives vs urban, rural occupations      |
 
 Translated data are only available for id 7 and 8, because we only have English
 SEAT data for these two ids. Language-specific data is available for all ids.

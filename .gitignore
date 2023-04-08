@@ -11,8 +11,6 @@ __MACOSX
 results/seat/en
 results/weat/en
 data/pca
-data/seat/en
-data/weat/en
 glove_models
 elmo_models
 social_bias
