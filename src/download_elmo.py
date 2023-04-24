@@ -17,5 +17,6 @@ def download_elmo_hindi_model():
     with zipfile.ZipFile(elmo_zip_path, "r") as zip_ref:
         zip_ref.extractall("elmo_models/hi")
 
+
 if __name__ == "__main__":
     download_elmo_hindi_model()

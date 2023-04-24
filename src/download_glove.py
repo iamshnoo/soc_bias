@@ -18,7 +18,8 @@ def download_glove_hindi_model():
     with zipfile.ZipFile(glove_zip_path, "r") as zip_ref:
         zip_ref.extractall("glove_test/hi")
 
-    #shutil.rmtree(path="glove_test/hi/__MACOSX", ignore_errors=True)
+    # shutil.rmtree(path="glove_test/hi/__MACOSX", ignore_errors=True)
+
 
 if __name__ == "__main__":
     download_glove_hindi_model()
